@@ -1,0 +1,29 @@
+.flex-container {
+    background-color: DodgerBlue;
+    padding: 10px;
+    height: 440px;
+    width: 440px;
+  }
+
+  .flex-container .wrap{
+    display: flex;
+    height: 12.5%;
+    width: 100%;
+  }
+
+  .wrap > div {
+    width: 12.5%;
+    height: 100%;
+  }
+
+  .wrap > div:hover {
+    background-color: aqua;
+  }
+
+  .wrap .black{
+    background-color: black;
+  }
+
+  .wrap .white{
+    background-color: white;
+  }
