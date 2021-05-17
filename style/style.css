@@ -39,7 +39,7 @@ h1{
 .flex-container > div:nth-child(8) ~ div:nth-child(-1n + 16)::before,
 .flex-container > div:nth-child(48) ~ div:nth-child(-1n + 56)::before {
   
-  content: '\2659';
+  content: '\265F';
   font-size: 50px;
   display: inline-block;
   color: brown;
@@ -52,7 +52,7 @@ h1{
 .flex-container > div:nth-child(64)::before 
 {
   
-  content: '\2656';
+  content: '\265C';
   font-size: 50px;
   display: inline-block;
   color: brown;
@@ -66,7 +66,7 @@ h1{
 .flex-container > div:nth-child(63)::before
 {
   
-  content: '\2658';
+  content: '\265E';
   font-size: 50px;
   display: inline-block;
   color: brown;
@@ -79,7 +79,7 @@ h1{
 .flex-container > div:nth-child(59)::before,
 .flex-container > div:nth-child(62)::before{
   
-  content: '\2657';
+  content: '\265D';
   font-size: 50px;
   display: inline-block;
   color: brown;
@@ -91,7 +91,7 @@ h1{
 .flex-container > div:nth-child(60)::before 
 {
   
-  content: '\2654';
+  content: '\265A';
   font-size: 50px;
   display: inline-block;
   color: brown;
@@ -103,7 +103,7 @@ h1{
 .flex-container > div:nth-child(61)::before
 {
   
-  content: '\2655';
+  content: '\265B';
   font-size: 50px;
   display: inline-block;
   color: brown;
