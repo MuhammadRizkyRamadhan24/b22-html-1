@@ -16,18 +16,97 @@ h1{
 }
 
 .flex-container > div{
+    background-color: black;
     height: 12.5%;
     width: 12.5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
-.flex-container .black{
-    background-color: black;
+.flex-container > div:nth-child(-2n + 7),
+.flex-container > div:nth-child(9) ~  div:nth-child(-2n + 16), 
+.flex-container > div:nth-child(16) ~ div:nth-child(-2n + 23), 
+.flex-container > div:nth-child(25) ~ div:nth-child(-2n + 32), 
+.flex-container > div:nth-child(32) ~ div:nth-child(-2n + 39), 
+.flex-container > div:nth-child(41) ~ div:nth-child(-2n + 48), 
+.flex-container > div:nth-child(48) ~ div:nth-child(-2n + 55), 
+.flex-container > div:nth-child(56) ~ div:nth-child(-2n + 64) 
+{
+  background-color: rgb(255, 255, 228);
 }
 
-.flex-container .white{
-    background-color: white;
+.flex-container > div:nth-child(8) ~ div:nth-child(-1n + 16)::before,
+.flex-container > div:nth-child(48) ~ div:nth-child(-1n + 56)::before {
+  
+  content: '\2659';
+  font-size: 50px;
+  display: inline-block;
+  color: brown;
+  position: relative;
 }
 
-.flex-container .white:hover {
-    background-color: aqua;
+.flex-container > div:nth-child(1)::before,
+.flex-container > div:nth-child(8)::before,
+.flex-container > div:nth-child(57)::before,
+.flex-container > div:nth-child(64)::before 
+{
+  
+  content: '\2656';
+  font-size: 50px;
+  display: inline-block;
+  color: brown;
+  position: relative;
+  
+}
+
+.flex-container > div:nth-child(2)::before,
+.flex-container > div:nth-child(7)::before,
+.flex-container > div:nth-child(58)::before,
+.flex-container > div:nth-child(63)::before
+{
+  
+  content: '\2658';
+  font-size: 50px;
+  display: inline-block;
+  color: brown;
+  position: relative;
+    
+}
+
+.flex-container > div:nth-child(3)::before,
+.flex-container > div:nth-child(6)::before,
+.flex-container > div:nth-child(59)::before,
+.flex-container > div:nth-child(62)::before{
+  
+  content: '\2657';
+  font-size: 50px;
+  display: inline-block;
+  color: brown;
+  position: relative;
+    
+}
+
+.flex-container > div:nth-child(4)::before,
+.flex-container > div:nth-child(60)::before 
+{
+  
+  content: '\2654';
+  font-size: 50px;
+  display: inline-block;
+  color: brown;
+  position: relative;
+  
+}
+
+.flex-container > div:nth-child(5)::before,
+.flex-container > div:nth-child(61)::before
+{
+  
+  content: '\2655';
+  font-size: 50px;
+  display: inline-block;
+  color: brown;
+  position: relative;
+  
 }
